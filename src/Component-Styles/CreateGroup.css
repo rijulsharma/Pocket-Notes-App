@@ -1,0 +1,120 @@
+.createGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 3; 
+    height: 35%;
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .createGroup{
+      width: 80%;
+      height: 25%;
+    }
+    .groupTitle{
+        font-size: 18px !important;
+    }
+    .groupClass {
+        font-size: 18px !important;
+    }
+    .color-picker{
+        font-size: 18px !important;
+    }
+    .circle{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .createButton{
+        font-size: 12px !important;
+    }
+    
+  }
+
+
+.groupTitle{
+    font-size: 2em ;
+    font-weight: 500;
+    
+    padding: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
+    
+}
+.group-input{
+    height: 10px;
+}
+
+.circle{
+     width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    cursor: 'pointer';
+    margin-right: 10px;
+    cursor: pointer;
+}
+.circles{
+    display: flex;
+    /* background-color: yellow; */
+    height: 70%;
+    width: 70%;
+}
+
+.color-picker{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    
+    font-size: 1.5em ;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 25%;
+}
+
+.groupClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;  
+    /* background-color: pink; */
+    width: 100%;
+    height: 25%;
+    margin-top: 2%;
+    font-size: 1.5em;
+       
+}
+
+
+.groupClass input{
+    width: 60%;
+    height: 50%;
+    margin-right: 10%;
+    border-radius: 22px;
+    border-color: #CCCCCC ;
+    border-width: 1px;
+}
+
+.createButton{
+    background-color: #001F8B;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+    height: 12%;
+    width: 25%;
+    color: white;
+    align-items: center;
+    border-radius: 11px;
+    font-size: 1em;
+    font-weight: 400;
+    align-items: center;
+}

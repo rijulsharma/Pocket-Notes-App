@@ -1,0 +1,27 @@
+.chatContent{
+    background-color: #DAE5F5;
+    width: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.chatContent::-webkit-scrollbar{
+    width: 8px;
+}
+@media only screen and (max-width: 600px) {
+    
+    .chatContent{
+        width: 100%;
+        height: 100vh;
+        
+    }
+  }
+
+.noteContent{
+    overflow: auto;
+    margin-bottom: 0px;
+   width: 100%;
+   height: 65%;
+
+}

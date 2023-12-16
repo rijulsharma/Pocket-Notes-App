@@ -1,0 +1,46 @@
+.chat{
+    max-height: 80px;
+    display: flex;
+    padding-bottom: 3.5%;
+    padding-top: 2%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 16px;
+    border-color: black ;
+}
+.chat:hover{
+    background-color: rgba(47, 47, 47, 0.17);
+}
+.chat-icon{
+    width: 69px;
+    min-width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.itemBox{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.chat p{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 30px;
+
+}

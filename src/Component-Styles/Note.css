@@ -1,0 +1,41 @@
+.note{
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+
+}
+.note p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 28.83px;
+    font-weight: 500;
+    
+    
+}
+.date-time{
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    align-items: center;
+    
+}
+.date-time p{
+    margin-right: 10px !important;
+    font-size: 0.9em !important;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background-color: #000; /* You can change the color */
+    border-radius: 50%;
+    
+   
+  }

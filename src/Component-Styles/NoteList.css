@@ -1,0 +1,51 @@
+.notelist{
+    color: black;
+    position: relative;
+    overflow: auto;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .notelist{
+      width: 100vw;
+    }
+    .notelist .add-button {
+        position: fixed;
+        right: 0% !important;
+        bottom: 5% !important;
+        left: 70%;
+        
+    }
+  }
+  
+.notelist::-webkit-scrollbar{
+    width: 8px;
+}
+
+.notelist h1{
+    color: black;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.add-button {
+    background-color: #16008B;
+    position: fixed;
+    color: white;
+    width: 50%;
+    max-width: 70px; 
+    height: 50%; 
+    max-height: 70px; 
+    border-radius: 50%;
+    border: none;
+    bottom: 5%;
+    left: 18%;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: 600;
+}
