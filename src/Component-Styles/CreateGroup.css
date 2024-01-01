@@ -8,7 +8,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    
+
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 3; 
@@ -21,27 +21,57 @@
 
 @media only screen and (max-width: 600px) {
     .createGroup{
-      width: 80%;
-      height: 25%;
+        padding-left: 0px !important;
+        padding-top: 30px;
+        min-height: 190px;
+        width: 85% !important;
+        height: 10%;
     }
     .groupTitle{
-        font-size: 18px !important;
+        margin-left: 25px;
+        font-size: 20px !important;
     }
     .groupClass {
-        font-size: 18px !important;
+        width: 100%;
+        font-size: 14px !important;
+    }
+    .groupClass label {
+        padding-left: 25px !important; 
     }
     .color-picker{
-        font-size: 18px !important;
+        font-size: 14px !important;
+    }
+    .color-picker label {
+        padding-left: 25px !important;
     }
     .circle{
-        width: 25px !important;
-        height: 25px !important;
+        width: 18px !important;
+        height: 18px !important;
     }
     .createButton{
         font-size: 12px !important;
+        width: 67% !important;
+        height: 32px !important;
+        position: relative !important;
+        font-size: 1.2em !important;
+        font-weight: 400 !important;
+        bottom: 0% !important;
+        right: 0% !important;
+        align-self: center !important;
+        margin-top: 35px !important;
     }
-    
-  }
+    .group-input{
+        width: 50% !important;
+        padding-left: 3% !important;
+    }
+    .circles{
+        width: 50% !important;
+        margin-right: 5% !important;
+    }
+    .groupClass input{
+       margin-right: 5% !important;
+    }
+}
 
 
 .groupTitle{
@@ -54,13 +84,13 @@
     
 }
 .group-input{
-    height: 10px;
+    /* height: 10px; */
     padding-left: 3%;
 }
 
 .circle{
-     width: 40px !important;
-    height: 40px !important;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     cursor: 'pointer';
     margin-right: 10px;
@@ -69,7 +99,7 @@
 .circles{
     display: flex;
     /* background-color: yellow; */
-    height: 70%;
+    /* height: 70%; */
     width: 70%;
 }
 
@@ -78,9 +108,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;  
-    
+    font-weight: 500;
     font-size: 1.5em ;
-    /* background-color: aqua; */
     width: 100%;
     /* height: 25%; */
 }
@@ -90,12 +119,12 @@
     flex-direction: row;
     align-items: center; 
     justify-content: space-between;  
-    /* background-color: pink; */
     width: 100%;
     height: 25%;
     margin-top: 2%;
     font-size: 1.5em;
-       
+    font-weight: 500;     
+    padding-bottom: 3%;
 }
 
 
