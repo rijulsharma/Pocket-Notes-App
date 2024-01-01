@@ -68,7 +68,7 @@ function CreateGroup({ onClose, onGroupCreate }) {
         <div className='groupTitle'>Create New group</div>
        
         <div className="groupClass">
-          <label htmlFor="groupName">Group Name:</label>
+          <label htmlFor="groupName">Group Name</label>
           <input
             className='group-input'
             type="text"
@@ -82,7 +82,7 @@ function CreateGroup({ onClose, onGroupCreate }) {
         
 
         <div className="color-picker">
-          <label>Choose Colour:</label>
+          <label>Choose Colour</label>
           <div className='circles'>
             {colorOptions.map((color) => (
               <div
